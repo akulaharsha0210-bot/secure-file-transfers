@@ -67,7 +67,7 @@ python start_server.py
 5. **Access the application:**
 Open your browser to `http://localhost:5000`
 
-## 📱 How It Works
+##  How It Works
 
 ### Upload Process
 1. **Upload File**: Use the web interface to upload any file (up to 2GB)
@@ -103,7 +103,7 @@ Open your browser to `http://localhost:5000`
 - **Supported formats**: All file types
 - **Expiry options**: 1 minute to 7 days
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
@@ -123,7 +123,7 @@ Open your browser to `http://localhost:5000`
 └─────────────┘    └─────────────┘    └─────────────┘
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 securefiletransfer/
@@ -142,7 +142,7 @@ securefiletransfer/
 └── README.md           # This file
 ```
 
-## 🔒 Security Features
+##  Security Features
 
 - **AES-GCM Encryption**: Military-grade encryption for all files
 - **Pre-signed URLs**: Time-limited access to S3 objects
@@ -151,7 +151,7 @@ securefiletransfer/
 - **Input Validation**: Comprehensive validation of all inputs
 - **No Plaintext Storage**: Only encrypted files are stored in S3
 
-## 📱 Mobile Usage Guide
+##  Mobile Usage Guide
 
 ### For Users
 1. **Upload a file** using the web interface at `http://localhost:5000`
@@ -164,7 +164,7 @@ securefiletransfer/
 - Mobile devices access this URL to download and decrypt files
 - The `/decrypt` endpoint handles the entire download and decryption process
 
-## 🚀 Deployment Options
+##  Deployment Options
 
 ### Local Development
 ```bash
@@ -180,7 +180,7 @@ pip install gunicorn
 gunicorn app:app --bind 0.0.0.0:$PORT --workers 4
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Running Tests
 ```bash
@@ -227,7 +227,7 @@ python -c "from crypto_utils import *; print('Encryption working')"
 }
 ```
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 1. **AWS credentials not found**: Check your `.env` file
@@ -238,30 +238,30 @@ python -c "from crypto_utils import *; print('Encryption working')"
 ### Debug Mode
 The app runs in debug mode by default. Check the console for detailed error messages.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-**🔒 Secure File Transfer** - Making file sharing simple and secure! 📱
+** Secure File Transfer** - Making file sharing simple and secure! 
 
 **Key Benefits:**
-- ✅ No mobile app required
-- ✅ Works on any mobile device
-- ✅ Secure encryption
-- ✅ Time-limited access
-- ✅ Easy to use web interface
+-  No mobile app required
+-  Works on any mobile device
+-  Secure encryption
+-  Time-limited access
+-  Easy to use web interface
 
 
-## 📬 Contact
+##  Contact
 
 If you want to improve or collaborate, feel free to connect!
 
-## Maila Sai Vamshi
+## akula tanoj harsha vardhan
 
-📧 mailasaivamshi02@gmail.com
+📧 akulaharsha0210@gmail.com
 
-🔗 GitHub: https://github.com/Ms-vamshi
+🔗 GitHub: https://github.com/akulaharsha0210-bot
 
-🔗 LinkedIn: https://www.linkedin.com/in/sai-vamshi23/
+🔗 LinkedIn: https://www.linkedin.com/in/harsha-akula-2216693a6/
