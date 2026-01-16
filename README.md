@@ -1,26 +1,26 @@
-# 🔒 Secure File Transfer with Mobile QR Code Download
+#  Secure File Transfer with Mobile QR Code Download
 
 The Secure File Transfer App is a production-ready platform that enables users to upload and share files safely using QR codes, presigned URLs, and auto-expiring links.
 
 This project solves the common problem of transferring files quickly without exposing them to long-term storage risks.
 It is minimal, secure, scalable, and cloud-native — making it ideal for both academic evaluation and real-world use.
-## ✨ Features
+##  Features
 
-- **📁 File Upload**: Drag & drop interface for easy file uploads
-- 🔐 AWS S3 Secure Storage using presigned URLs
-- **☁️ S3 Integration**: Secure cloud storage with pre-signed URLs
-- **📱 QR Code Generation**: Automatic QR code creation for each file
-- **📲 Mobile Download**: Scan QR codes to download files directly to mobile devices
-- **⏰ Time-Limited Access**: Configurable expiration times for download links
-- **🛡️ Rate Limiting**: Protection against abuse
-- **🎨 Modern UI**: Clean, responsive design
+- ** File Upload**: Drag & drop interface for easy file uploads
+-  AWS S3 Secure Storage using presigned URLs
+- ** S3 Integration**: Secure cloud storage with pre-signed URLs
+- ** QR Code Generation**: Automatic QR code creation for each file
+- ** Mobile Download**: Scan QR codes to download files directly to mobile devices
+- ** Time-Limited Access**: Configurable expiration times for download links
+- ** Rate Limiting**: Protection against abuse
+- ** Modern UI**: Clean, responsive design
 
-## 🚀 Live Demo
+## Live Demo
 
 ## Secure File Transfer App is now live!
 🔗 Live URL: https://secure-file-transfer.up.railway.app/
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
